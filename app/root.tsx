@@ -7,6 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import Header from "~/components/header";
 import styles from "./tailwind.css";
 
 export const links: LinksFunction = () => [
@@ -30,7 +31,8 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="h-screen flex justify-center items-center font-flamenco">
+      <body className="h-screen flex flex-col items-center font-flamenco">
+        <Header />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
