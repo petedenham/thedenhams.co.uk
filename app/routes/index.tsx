@@ -1,7 +1,9 @@
+import image from "~/assets/images/logo.png";
+
 export default function Index() {
   return (
     <>
-      <h1 className="text-base">Coming soon :)</h1>
+      <img src={image} width="200" height="134" />
     </>
   );
 }
