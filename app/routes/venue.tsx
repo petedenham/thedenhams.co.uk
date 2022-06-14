@@ -1,4 +1,4 @@
-export default function Location() {
+export default function Venue() {
   return (
     <>
       <p>Location</p>
