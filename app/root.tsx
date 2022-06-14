@@ -33,7 +33,9 @@ export default function App() {
       </head>
       <body className="h-screen flex flex-col items-center font-flamenco">
         <Header />
-        <Outlet />
+        <main className="flex flex-1 flex-col w-full max-w-screen-lg px-3">
+          <Outlet />
+        </main>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
