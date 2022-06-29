@@ -32,7 +32,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="h-screen flex flex-col items-center font-baskerville">
+      <body className="h-screen flex flex-col items-center bg-eggshell/40 text-primary font-baskerville">
         <Header />
         <main className="flex flex-1 flex-col w-full max-w-screen-lg px-3">
           <Outlet />

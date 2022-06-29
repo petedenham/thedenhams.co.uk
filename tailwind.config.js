@@ -5,6 +5,10 @@ module.exports = {
       fontFamily: {
         baskerville: ['"Baskerville"', 'serif'],
       },
+      colors: {
+        primary: "#282828",
+        eggshell: "#f0ead6",
+      }
     },
   },
   plugins: [],
