@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        flamenco: ['"Flamenco"', 'cursive']
-      }
+        baskerville: ['"Baskerville"', 'serif'],
+      },
     },
   },
   plugins: [],

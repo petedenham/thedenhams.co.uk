@@ -8,13 +8,14 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import Header from "~/components/header";
+import baskervilleItalicFont from "./assets/fonts/Baskerville-Italic.woff2";
+import baskervilleBoldFont from "./assets/fonts/Baskerville-Bold.woff2";
 import styles from "./tailwind.css";
 
 export const links: LinksFunction = () => [
-  { rel: "preconnect", href: "https://fonts.googleapis.com" },
-  { rel: "preconnect", href: "https://fonts.gstatic.com" },
   { rel: "stylesheet", href: styles },
-  { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Flamenco&display=swap" },
+  { rel: "preload", href: baskervilleItalicFont, as: "font", type: "font/woff2", crossOrigin: "true" },
+  { rel: "preload", href: baskervilleBoldFont, as: "font", type: "font/woff2", crossOrigin: "true" },
 ];
 
 export const meta: MetaFunction = () => ({
@@ -31,7 +32,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="h-screen flex flex-col items-center font-flamenco">
+      <body className="h-screen flex flex-col items-center font-baskerville">
         <Header />
         <main className="flex flex-1 flex-col w-full max-w-screen-lg px-3">
           <Outlet />
