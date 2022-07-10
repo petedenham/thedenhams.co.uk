@@ -8,7 +8,7 @@ export default function Header() {
       <nav className="text-base m-2">
         <ul className="flex flex-row flex-wrap items-center text-base text-lg">
           <li className="px-2 hover:underline"><Link to="/accommodation">Accommodation</Link></li>
-          <li className="px-2 hover:underline"><Link to="/location">Venue</Link></li>
+          <li className="px-2 hover:underline"><Link to="/venue">Venue</Link></li>
           <li className="px-2 hover:underline"><Link to="/rsvp">RSVP</Link></li>
           <li className="px-2 hover:underline"><Link to="/information">Information</Link></li>
         </ul>
