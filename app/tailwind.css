@@ -808,10 +808,6 @@ video {
     margin-bottom: 1.25rem;
   }
 
-  .lg\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .lg\:w-96 {
     width: 24rem;
   }
