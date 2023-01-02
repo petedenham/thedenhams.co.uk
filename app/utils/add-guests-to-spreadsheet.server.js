@@ -4,9 +4,6 @@ export async function addGuestsToSpreadsheet(guests) {
   const spreadsheetId = process.env.SPREADSHEET_ID;
   const range = "Sheet1!A:D";
 
-  console.log(process.env.PRIVATE_KEY);
-  console.log(atob(process.env.PRIVATE_KEY));
-
   const auth = new google.auth.GoogleAuth({
     credentials: {
       client_email: process.env.CLIENT_EMAIL,
