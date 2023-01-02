@@ -13,3 +13,5 @@ npm run dev
 ```
 
 ## Deployment
+
+All commits to the main branch will trigger a GitHub action that will deploy the app.
