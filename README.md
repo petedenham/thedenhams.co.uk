@@ -1,3 +1,5 @@
+[![🚀 Deploy](https://github.com/peterrattew/thedenhams.co.uk/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/peterrattew/thedenhams.co.uk/actions/workflows/deploy.yml)
+
 # The Denhams
 
 Simple site for our upcoming wedding.
