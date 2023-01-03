@@ -1,4 +1,5 @@
 import Anchor from "~/components/anchor";
+import PageTitle from "~/components/page-title";
 import premierInnImage from "~/assets/images/premier-inn.jpeg";
 import spaHotelImage from "~/assets/images/the-spa-hotel.jpeg";
 import theCarpentersArmsImage from "~/assets/images/the-carpenters-arms.jpeg";
@@ -8,7 +9,7 @@ import mercureImage from "~/assets/images/mercure.jpeg";
 export default function Accommodation() {
   return (
     <>
-      <p className="text-xl mb-5 font-bold">Accommodation</p>
+      <PageTitle>Accommodation</PageTitle>
 
       <div className="flex flex-col lg:flex-row overflow-hidden h-auto lg:mb-5">
         <img width="500" height="281" src={premierInnImage} className="block h-auto flex-none lg:w-96" />
