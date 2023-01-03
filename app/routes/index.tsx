@@ -30,7 +30,7 @@ export default function Index() {
           <span className="block font-bold text-3xl uppercase">Rachel Denham</span>
         </h1>
         <p>Saturday the 6th May 2023</p>
-        <p>Arrival from 1pm for a 1:30pm ceremony</p>
+        <p>Arrival from 12:30pm for a 1:30pm ceremony</p>
         <p>At Oak Tree Barn</p>
 
         <Link
