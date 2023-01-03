@@ -25,7 +25,8 @@ export default function Information() {
       <p className="mb-2">1:30pm Ceremony 👰 🤵</p>
       <p className="mb-2">4pm Time to feast 🥘</p>
       <p className="mb-2">7:30pm Put on your dancing shoes 💃</p>
-      <p className="mb-2">1am Taxis! 🚕</p>
+      <p className="mb-2">12:30am Last song 🎶</p>
+      <p className="mb-2">12:45am Taxis! 🚕</p>
     </>
   );
 }
