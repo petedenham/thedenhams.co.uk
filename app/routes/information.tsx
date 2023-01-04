@@ -15,7 +15,12 @@ export default function Information() {
       <p className="mb-5">Anything as long as you feel fabulous.. and its not a wedding dress.</p>
 
       <h2 className="text-lg font-bold">Taxis</h2>
-      <p className="mb-5">Coming soon.</p>
+      <p className="mb-2">If you are staying at the premier inn then you can walk it (but ladies you might want flats or to grab a pair of the complimentary flip flops)</p>
+      <p className="mb-2">Any further a field you'll likely want a taxi and we highly recommend booking these in advance.</p>
+      <p className="mb-2">Some local numbers are:</p>
+      <p className="mb-2">Adam - 01732 364455 (Recommended by venue. Can do 8 seaters.)</p>
+      <p className="mb-2">Castle Cars - 01732 363637</p>
+      <p className="mb-5">Uber does operate in the area but it can be a long wait at the moment to connect to a driver so we wouldn't recommend risking it!</p>
 
       <h2 className="text-lg font-bold">Gifts</h2>
       <p className="mb-5">Coming soon.</p>
