@@ -11,7 +11,8 @@
     "dev:css": "npm run generate:css -- --watch",
     "dev:remix": "remix dev",
     "generate:css": "npx tailwindcss -o ./app/tailwind.css",
-    "start": "remix-serve build"
+    "start": "remix-serve build",
+    "test": "vitest"
   },
   "dependencies": {
     "@remix-run/node": "^1.9.0",
@@ -24,12 +25,19 @@
   "devDependencies": {
     "@remix-run/dev": "^1.9.0",
     "@remix-run/eslint-config": "^1.9.0",
+    "@testing-library/dom": "^8.19.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.0.1",
     "eslint": "^8.31.0",
+    "happy-dom": "^8.1.3",
     "npm-run-all": "^4.1.5",
     "tailwindcss": "^3.2.4",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "vite-tsconfig-paths": "^4.0.3",
+    "vitest": "^0.26.3"
   },
   "engines": {
     "node": ">=14"
