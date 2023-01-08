@@ -1,0 +1,11 @@
+// Vitest Snapshot v1
+
+exports[`PageTitle > matches snapshot 1`] = `
+<div>
+  <h1
+    class="text-xl mb-7 mt-2 font-bold text-center md:text-2xl md:mb-10 md:mt-5"
+  >
+    Title
+  </h1>
+</div>
+`;
