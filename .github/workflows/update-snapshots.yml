@@ -3,28 +3,30 @@ on: workflow_dispatch
 
 jobs:
   updatesnapshots:
+    name: 🎆 Update Snapshots
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-      - name: ⬇️  Checkout repo
+      - name: ⬇️  Checkout Repo
         uses: actions/checkout@v3
 
-      - name: ⎔ Setup node
+      - name: ⎔ Setup Dode
         uses: actions/setup-node@v3
         with:
           node-version: 16
 
-      - name: 📥 Download deps
+      - name: 📥 Download Deps
         uses: bahmutov/npm-install@v1
         with:
           useLockFile: false
 
-      - name: 📥 Install playwright browsers
+      - name: 📥 Install Playwright Browsers
         run: npx playwright install --with-deps 
 
-      - name: 🎭 Run playwright
-        run: npm run playwrighti --update-snapshots
+      - name: 🎭 Run Playwright
+        run: npm run playwright  --update-snapshots
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: ✨ Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "[CI] Update Snapshots"
