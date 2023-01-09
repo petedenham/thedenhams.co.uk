@@ -52,10 +52,13 @@ jobs:
         with:
           useLockFile: false
 
+      - name: 📥 Install playwright browsers
+        run: npx playwright install --with-deps 
+
       - name: 🎭 Run playwright
         run: npm run playwright
 
-      - uses: actions/upload-artifact@v3
+      - uses: ⬆️  actions/upload-artifact@v3
         if: always()
         with:
           name: playwright-report
