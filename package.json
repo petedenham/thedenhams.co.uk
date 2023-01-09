@@ -13,7 +13,8 @@
     "generate:css": "npx tailwindcss -o ./app/tailwind.css",
     "start": "remix-serve build",
     "test": "vitest",
-    "test:coverage": "vitest --coverage"
+    "test:coverage": "vitest --coverage",
+    "playwright": "playwright test"
   },
   "dependencies": {
     "@remix-run/node": "^1.9.0",
@@ -24,6 +25,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.29.2",
     "@remix-run/dev": "^1.9.0",
     "@remix-run/eslint-config": "^1.9.0",
     "@testing-library/dom": "^8.19.1",
