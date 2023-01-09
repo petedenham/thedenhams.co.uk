@@ -33,8 +33,8 @@ jobs:
         run: npm run test -- --coverage
 
   playwright:
-    name: 🎭 Playwright
-    runs-on: ubuntu-latest 
+    name: Playwright
+    runs-on: ubuntu-latest
     steps:
       - name: 🛑 Cancel Previous Runs
         uses: styfle/cancel-workflow-action@0.11.0
@@ -55,12 +55,12 @@ jobs:
       - name: 🎭 Run playwright
         run: npm run playwright
 
-    - uses: actions/upload-artifact@v3
-      if: always()
-      with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 30
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30
 
   build:
     name: 🐳 Build
@@ -148,4 +148,3 @@ jobs:
           args: "deploy --image registry.fly.io/${{ steps.app_name.outputs.value }}:${{ github.ref_name }}-${{ github.sha }}"
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-
