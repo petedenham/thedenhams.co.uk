@@ -24,6 +24,5 @@ describe("Header", () => {
     expect(screen.getByText(/venue/i)).toBeInTheDocument();
     expect(screen.getByText(/rsvp/i)).toBeInTheDocument();
     expect(screen.getByText(/information/i)).toBeInTheDocument();
-    screen.debug();
   });
 });
