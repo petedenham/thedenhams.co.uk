@@ -26,7 +26,7 @@ jobs:
       - name: 🎭 Run Playwright
         run: npm run playwright  --update-snapshots
 
-      - name: ✨ Commit Changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: ✨ Create Pull Request
+        uses: peter-evans/create-pull-request@v4
         with:
-          commit_message: "[CI] Update Snapshots"
+          commit-message: "[CI] Update Snapshots"
