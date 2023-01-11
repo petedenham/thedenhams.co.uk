@@ -31,3 +31,6 @@ jobs:
         if: always()
         with:
           commit-message: "[CI] Update Snapshots"
+          delete-branch: true
+          title": "[CI] Update Snapshots"
+          branch: "update-snapshits-${{github.run_number}}"
