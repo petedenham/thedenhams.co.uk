@@ -23,7 +23,8 @@ export default function Information() {
       <p className="mb-5">Uber does operate in the area but it can be a long wait at the moment to connect to a driver so we wouldn't recommend risking it!</p>
 
       <h2 className="text-lg font-bold">Gifts</h2>
-      <p className="mb-5">Coming soon.</p>
+      <p className="mb-2">We genuinely mean it when we say your presence is present enough. If you want to give us a gift, then a contribution to our honeymoon would be greatly appreciated. These contributions will go towards making some fantastic memories doing activities such as wine tours in the Napa Valley or whale watching off the coast of Vancouver.</p>
+      <p className="mb-5"><a type="submit" className="border-primary border-2 hover:bg-primary hover:text-white border px-10 py-2 inline-block active:translate-y-1" href="https://monzo.me/peterrattew">Honeymoon Pot</a></p>
 
       <h2 className="text-lg font-bold">Timetable</h2>
       <p className="mb-2">1pm Arrival P.s The bar closes half an hour before the ceremony so come at 12:30pm if you want a drink 😜</p>
